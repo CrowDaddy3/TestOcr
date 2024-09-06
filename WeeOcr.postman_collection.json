@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "453e84b8-f045-4b07-83c0-b86fe3779b54",
+		"name": "WeeOcr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24608498"
+	},
+	"item": [
+		{
+			"name": "Extraccion OCR",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/extract_pdf/?file",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"extract_pdf",
+						""
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
